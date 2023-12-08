@@ -14,7 +14,7 @@ st.set_option('deprecation.showPyplotGlobalUse', False)
 #cache help avoid downloading the dataset again and again when rerunning app
 @st.cache_data
 def get_data() -> pd.DataFrame:
-    return pd.read_csv("../../df_graph.csv")
+    return pd.read_csv("../df_graph.csv")
 
 
 df_graph = get_data()
