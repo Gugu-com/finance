@@ -9,10 +9,10 @@ import plotly.io as pio
 #cache help avoid downloading the dataset again and again when rerunning app
 @st.cache_data
 def get_data() -> pd.DataFrame:
-    return pd.read_csv("../df_final_3.csv")
+    return pd.read_csv("df_final_3.csv")
 
 def get_information() -> pd.DataFrame:
-    return pd.read_csv("../features_industry_raw.csv")
+    return pd.read_csv("features_industry_raw.csv")
 
 def path_to_image_html(path):
     return '<img src="' + path + '" style=max-height:48px;"/>'
