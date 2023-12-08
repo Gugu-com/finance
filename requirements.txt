@@ -2,3 +2,4 @@ Pillow
 plotly
 seaborn
 streamlit-extras
+st-pages
