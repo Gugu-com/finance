@@ -38,7 +38,7 @@ def main():
     c1.write("   ")
     c1.write("   ")
     c1.subheader("Showcase stock Performance :popcorn:")
-    if c1.button("Pick a Stock"):
+    if c1.button("Stock Predictor"):
         switch_page("Stock Forecast 💰")
     # Perform actions to directly go to the stock page
 
