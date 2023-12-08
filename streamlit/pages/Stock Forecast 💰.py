@@ -6,7 +6,9 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 import numpy as np
 import re
+import os
 
+print(os.cwd())
 
 st.set_option('deprecation.showPyplotGlobalUse', False)
 
