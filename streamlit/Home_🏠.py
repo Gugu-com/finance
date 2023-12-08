@@ -25,7 +25,7 @@ def main():
 
     # Put in logo
 
-    image = Image.open('/Users/admin/code/derksol/finance/Screenshot 2023-12-08 at 11.13.15.png')
+    image = Image.open('../finance/Screenshot 2023-12-08 at 11.13.15.png')
     c1, c2, c3 = st.columns([0.3, 0.4, 0.3])
     with c2:
         st.image(image, use_column_width=False, output_format="PNG", width=249, )
