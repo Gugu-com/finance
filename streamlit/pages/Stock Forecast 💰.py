@@ -8,7 +8,7 @@ import numpy as np
 import re
 import os
 
-print(os.cwd())
+print(os.getcwd())
 
 st.set_option('deprecation.showPyplotGlobalUse', False)
 
