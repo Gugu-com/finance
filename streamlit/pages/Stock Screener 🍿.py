@@ -9,7 +9,7 @@ import plotly.io as pio
 #cache help avoid downloading the dataset again and again when rerunning app
 @st.cache_data
 def get_data() -> pd.DataFrame:
-    return pd.read_csv("df_final_3.csv")
+    return pd.read_csv("df_graph.csv")
 
 def get_information() -> pd.DataFrame:
     return pd.read_csv("features_industry_raw.csv")
