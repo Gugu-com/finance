@@ -39,7 +39,7 @@ c12, c13 = st.columns(2)
 with c12:
     age = st.number_input("Enter your age:", min_value=18, max_value=100, step=1, key="age_input")
 with c13:
-    gender = st.selectbox("Select your gender:", ["Male", "Female"])
+    gender = st.selectbox("Select your gender:", ["Male", "Female", "Other"])
 
 st.markdown("***")
 
